@@ -13,5 +13,19 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:background="@color/colorAccent"
-            ctv:default_size="50dp"/>
+            android:visibility="gone"
+            ctv:default_size="50dp" />
+    <cn.jianke.customview.CustomViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </cn.jianke.customview.CustomViewGroup>
 </RelativeLayout>

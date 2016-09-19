@@ -39,10 +39,8 @@ public class CustomViewGroup extends ViewGroup{
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
         // 测量高度
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
-
         // 子view数目
         int childCount = getChildCount();
-
         if (childCount == 0){
             // 如果当前ViewGroup没有子View，就没有存在的意义，无需占空间
             setMeasuredDimension(0, 0);
@@ -62,8 +60,6 @@ public class CustomViewGroup extends ViewGroup{
             }
         }
     }
-
-
 
     /**
      * 获取子view最大高度
